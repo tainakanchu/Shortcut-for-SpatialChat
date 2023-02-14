@@ -1,70 +1,12 @@
-# Chrome Extension TypeScript Starter
+# Shortcut for SpatialChat
 
-![build](https://github.com/chibat/chrome-extension-typescript-starter/workflows/build/badge.svg)
+This extension provides several shortcut key operations on the SpatialChat screen.
+The currently implemented shortcut keys are
 
-Chrome Extension, TypeScript and Visual Studio Code
+|Key bind|Function|
+|:--|:--|
+|Ctrl + d|Mute / Unmute microphone|
+|Ctrl + e|Hide / Show camera|
 
-## Prerequisites
-
-* [node + npm](https://nodejs.org/) (Current Version)
-
-## Option
-
-* [Visual Studio Code](https://code.visualstudio.com/)
-
-## Includes the following
-
-* TypeScript
-* Webpack
-* React
-* Jest
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
-
-## Project Structure
-
-* src/typescript: TypeScript source files
-* src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
-
-## Setup
-
-```
-npm install
-```
-
-## Import as Visual Studio Code project
-
-...
-
-## Build
-
-```
-npm run build
-```
-
-## Build in watch mode
-
-### terminal
-
-```
-npm run watch
-```
-
-### Visual Studio Code
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
-
-## Load extension to chrome
-
-Load `dist` directory
-
-## Test
-`npx jest` or `npm run test`
+The key bindings were inspired by those used in Google meet.
+Currently, the ability to edit this setting on the user side is not implemented.
