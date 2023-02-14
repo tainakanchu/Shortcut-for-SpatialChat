@@ -28,7 +28,7 @@ jobs:
 
       - name: save build artifacts
         uses: actions/upload-artifact@v2
-        if: !failure()
+        if: success()
         with:
           name: artifacts
           path: ./dist
