@@ -1,6 +1,6 @@
 {
   "name": "shortcut-for-spatialchat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extend SpatialChat's on-screen operation with shortcut keys.",
   "main": "index.js",
   "scripts": {
