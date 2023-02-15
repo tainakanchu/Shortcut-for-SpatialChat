@@ -13,12 +13,14 @@
   "author": "tainakanchu",
   "license": "MIT",
   "dependencies": {
+    "platform": "^1.3.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/chrome": "0.0.213",
     "@types/jest": "^27.0.2",
+    "@types/platform": "^1.3.4",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.10",
     "copy-webpack-plugin": "^9.0.1",
