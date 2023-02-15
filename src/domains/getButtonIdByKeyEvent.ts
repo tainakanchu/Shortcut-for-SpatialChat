@@ -6,7 +6,7 @@ import { getKeyMap } from "./getKeyMap";
  * @param event キーボードイベント
  * @returns
  */
-export const getButonClassNameByKeyEvent = (
+export const getButtonClassNameByKeyEvent = (
   event: KeyboardEvent
 ): string | null => {
   const keyMap = getKeyMap();
